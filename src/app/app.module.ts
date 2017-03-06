@@ -13,24 +13,26 @@ import { StructDirect } from './kdirective/StructDirect'
 import {ServComponent} from './Aservice/ServComponent'
 import {SenServComponent} from './Aservice/senServ'
 import {defulatServ1} from './service/TestServ2'
+
 @NgModule({
-  declarations: [
-    AppComponent,
-      HclComponent,
-      customdirective,
-      StructDirective,
-    CustDirect,
-      BuildDirect,
-    StructDirect,
-    ServComponent,
-    SenServComponent,
-        ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
-  providers: [defulatServ1],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HclComponent,
+        customdirective,
+        StructDirective,
+        CustDirect,
+        BuildDirect,
+        StructDirect,
+        ServComponent,
+        SenServComponent,
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule
+    ],
+    providers: [defulatServ1],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
